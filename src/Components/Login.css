@@ -1,0 +1,200 @@
+/* General Page Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #a09797;
+}
+
+/* Full Page Layout */
+.login-page {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Left Section - Text */
+
+.box2{
+  padding: 15px;
+  background-color: #1b0404;
+  border-radius: 20px;
+  height: 100%; /* Ensure it expands fully */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.info-section {
+  flex: 1;
+  padding: 50px;
+  color: white;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 10px;
+  height: 800px;
+}
+
+.tagline {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #888;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.rectangle {
+  background: url("/home/oem/AI Project/Insurance/src/assets/luxurious-car-parked-highway-with-illuminated-headlight-sunset(1).jpg") center/cover no-repeat; /* Add background image */
+  margin-left: 75px;
+  margin-top: 150px;
+  background-color: black; /* Black background */
+  border-radius: 10px;
+  height: 250px; /* Adjust height as needed */
+  width: 90%; /* Set width to match the left section */
+  max-width: 600px; /* Ensure it doesn't stretch too much */
+  padding: 20px;
+  color: white; /* Text color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.rectangle p {
+  font-size: 18px; /* Increase paragraph font size */
+  line-height: 1.6; /* Improve readability */
+}
+
+.main-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.signup-text {
+  margin-top: 20px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.signup-text span {
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Right Section - Login Form */
+.image-section {
+  width: 100%;
+  height: 100vh; /* Stretch to full height */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: url("/home/oem/AI Project/Insurance/src/assets/luxury-car-speeds-by-modern-building-dusk-generative-ai.jpg") center/cover no-repeat;
+}
+
+/* Login Container */
+.login-container {
+  width: 400px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.login-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Login Options */
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.login-options label {
+  cursor: pointer;
+}
+
+.forgot-password {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Login Button */
+.login-button {
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.login-button:hover {
+  background-color: #333;
+}
+
+/* Image Preview */
+.image-preview {
+  margin-top: 20px;
+}
+
+.image-preview img {
+  width: 100%;
+  border-radius: 5px;
+}
